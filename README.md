@@ -10,7 +10,7 @@ This repository keeps track of the datasets that bike-sharing programs have rele
 
 ### Trip History
 
-- __URL__: [latest .ZIP](http://hubwaydatachallenge.org/)
+- __URL__: [latest .zip](http://hubwaydatachallenge.org/)
 - __Coverage__: 2012-10-01 to 2013-11-30
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
@@ -26,7 +26,7 @@ Included in the trip-history download.
 
 ### Trip History
 
-- __URL__: [latest .ZIP](https://www.divvybikes.com/assets/images/Divvy_Stations_Trips_2013.zip)
+- __URL__: [latest .zip](https://www.divvybikes.com/assets/images/Divvy_Stations_Trips_2013.zip)
 - __Coverage__: 2013-06-27 to 2013-12-31
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
