@@ -10,7 +10,7 @@ This repository keeps track of the datasets that bike-sharing programs have rele
 
 ### Trip History
 
-- __URL__: [2013 .ZIP](http://hubwaydatachallenge.org/)
+- __URL__: [latest .ZIP](http://hubwaydatachallenge.org/)
 - __Coverage__: 2012-10-01 to 2013-11-30
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
@@ -26,7 +26,7 @@ Included in the trip-history download.
 
 ### Trip History
 
-- __URL__: [2013 .ZIP](https://www.divvybikes.com/assets/images/Divvy_Stations_Trips_2013.zip)
+- __URL__: [latest .ZIP](https://www.divvybikes.com/assets/images/Divvy_Stations_Trips_2013.zip)
 - __Coverage__: 2013-06-27 to 2013-12-31
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
@@ -54,7 +54,7 @@ CitiBike provides month-by-month downloads of its trip history data. To download
 
 ### Station Details
 
-- __URL__: [JSON](http://www.citibikenyc.com/stations/json)
+- __URL__: [live JSON](http://www.citibikenyc.com/stations/json)
 
 A JSON file listing all active CitiBike stations can be downloaded link above. Basic station attributes can also be extracted from the trip history data (see above).
 
