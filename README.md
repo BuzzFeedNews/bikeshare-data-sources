@@ -36,7 +36,7 @@ Included in the trip-history download.
 
 ---
 
-## New York City — CitiBike
+## New York City — Citi Bike
 
 - __Website:__ [http://www.citibikenyc.com/system-data](http://www.citibikenyc.com/system-data)
 
@@ -46,7 +46,7 @@ Included in the trip-history download.
 - __Coverage__: 2013-07-01 to 2014-02-28
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
-CitiBike provides month-by-month downloads of its trip history data. To download all available months and merge them into a single CSV file, use [the Bash script included in this repository](scripts/nyc-citibike/fetch-all.sh):
+Citi Bike provides month-by-month downloads of its trip history data. To download all available months and merge them into a single CSV file, use [the Bash script included in this repository](scripts/nyc-citibike/fetch-all.sh):
 
 ```sh
 ./scripts/nyc-citibike/fetch-all.sh > PATH/TO/FILE.csv
@@ -56,6 +56,6 @@ CitiBike provides month-by-month downloads of its trip history data. To download
 
 - __Links__: [live JSON](http://www.citibikenyc.com/stations/json)
 
-A JSON file listing all active CitiBike stations can be downloaded link above. Basic station attributes can also be extracted from the trip history data (see above).
+A JSON file listing all active Citi Bike stations can be downloaded link above. Basic station attributes can also be extracted from the trip history data (see above).
 
 ---
