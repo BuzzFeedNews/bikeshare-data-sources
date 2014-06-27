@@ -6,15 +6,15 @@ This repository keeps track of the datasets that bike-sharing programs have rele
 
 ## Boston — Hubway
 
-- __Website__: [http://hubwaydatachallenge.org/trip-history-data/](http://hubwaydatachallenge.org/trip-history-data/)
+- __Data homepage__: [http://hubwaydatachallenge.org/](http://hubwaydatachallenge.org/)
 
-### Trip History
+### Trip History Data
 
-- __Links__: [latest .zip](http://hubwaydatachallenge.org/)
+- __Where to find it__: [http://hubwaydatachallenge.org/trip-history-data/](http://hubwaydatachallenge.org/trip-history-data/)
 - __Coverage__: 2012-10-01 to 2013-11-30
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
-### Station Details
+### Station Data
 
 Included in the trip-history download.
 
@@ -22,15 +22,15 @@ Included in the trip-history download.
 
 ## Chicago — Divvy
 
-- __Website__: [https://www.divvybikes.com/datachallenge](https://www.divvybikes.com/datachallenge)
+- __Data homepage__: [https://www.divvybikes.com/datachallenge](https://www.divvybikes.com/datachallenge)
 
-### Trip History
+### Trip History Data
 
-- __Links__: [latest .zip](https://www.divvybikes.com/assets/images/Divvy_Stations_Trips_2013.zip)
+- __Where to find it__: [http://hubwaydatachallenge.org/trip-history-data/](http://hubwaydatachallenge.org/trip-history-data/)
 - __Coverage__: 2013-06-27 to 2013-12-31
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
-### Station Details
+### Station Data
 
 Included in the trip-history download.
 
@@ -38,11 +38,11 @@ Included in the trip-history download.
 
 ## New York City — Citi Bike
 
-- __Website:__ [http://www.citibikenyc.com/system-data](http://www.citibikenyc.com/system-data)
+- __Data homepage:__ [http://www.citibikenyc.com/system-data](http://www.citibikenyc.com/system-data)
 
-### Trip History
+### Trip History Data
 
-- __Links__: See link above and notes below.
+- __Where to find it:__ [http://www.citibikenyc.com/system-data](http://www.citibikenyc.com/system-data)
 - __Coverage__: 2013-07-01 to 2014-02-28
 - __Extra fields__: gender (subscribers only), birth year (subscribers only)
 
@@ -52,9 +52,9 @@ Citi Bike provides month-by-month downloads of its trip history data. To downloa
 ./scripts/nyc-citibike/fetch-all.sh > PATH/TO/FILE.csv
 ```
 
-### Station Details
+### Station Data
 
-- __Links__: [live JSON](http://www.citibikenyc.com/stations/json)
+- __Where to find it__: [live JSON](http://www.citibikenyc.com/stations/json)
 
 A JSON file listing all active Citi Bike stations can be downloaded link above. Basic station attributes can also be extracted from the trip history data (see above).
 
