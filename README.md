@@ -59,3 +59,27 @@ Citi Bike provides month-by-month downloads of its trip history data. To downloa
 A JSON file listing all active Citi Bike stations can be downloaded link above. Basic station attributes can also be extracted from the trip history data (see above).
 
 ---
+
+## Washington, D.C. — Capital Bikeshare
+
+- __Data homepage:__ [https://www.capitalbikeshare.com/system-data](https://www.capitalbikeshare.com/system-data)
+
+### Trip History Data
+
+- __Where to find it__: [https://www.capitalbikeshare.com/trip-history-data](https://www.capitalbikeshare.com/trip-history-data)
+- __Coverage__: 2010-09-15 to 2014-03-31
+- __Extra fields__: None
+
+Capital Bikeshare provides quarterly downloads of its trip history data. Data through the third quarter of 2013 are provided as direct CSV downloads. Data for later quarters are provided as ZIP files of CSV files. To download all available quarters and merge them into a single CSV file, use [the Bash script included in this repository](scripts/dc-capital-bikeshare/fetch-all.sh):
+
+```sh
+./scripts/dc-capital-bikeshare/fetch-all.sh > PATH/TO/FILE.csv
+```
+
+### Station Data
+
+- __Where to find it__: [live XML](https://www.capitalbikeshare.com/data/stations/bikeStations.xml)
+
+A XML file listing all active Capital Bikeshare stations can be downloaded from link above. Basic station attributes can also be extracted from the trip history data (see above).
+
+---
